@@ -49,7 +49,7 @@ export default function Home() {
       {schema ? (
         <FormBuilder schema={schema} />
       ) : (
-        <p className="text-gray-500">Loading schema...</p>
+        <p className="text-gray-500 h-full flex justify-center items-center w-full">No Schema Present...</p>
       )}
     </main>
   );
